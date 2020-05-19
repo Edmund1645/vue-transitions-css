@@ -1,0 +1,39 @@
+{
+  "name": "vue-transitions-css",
+  "version": "0.0.1",
+  "description": "A lightweight CSS library for adding transitions to Vue components",
+  "main": "dist/index.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edmund1645/vue-transitions-css.git"
+  },
+  "keywords": [
+    "vue",
+    "transitions",
+    "css",
+    "styles",
+    "animations"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Edmund1645/vue-transitions-css/issues"
+  },
+  "homepage": "https://github.com/Edmund1645/vue-transitions-css#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {}
+}
