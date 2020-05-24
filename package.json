@@ -5,7 +5,9 @@
   "main": "dist/index.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp minify"
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "develop": "cd demo && npm run serve"
   },
   "repository": {
     "type": "git",
