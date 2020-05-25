@@ -3,7 +3,7 @@
     <Nav />
     <div id="body">
       <div id="selector">
-        <select name="animations" id="animations" v-model="selected">
+        <select name="animations" id="animations-list" v-model="selected">
           <option
             v-for="(animation, index) in animations"
             :key="index"
@@ -12,10 +12,11 @@
             {{ animation.name }}
           </option>
         </select>
-        <button @click="animate">toggle</button>
+        <button @click="animate" class="animation-toggle-button">toggle</button>
       </div>
       <div id="preview">
-        <transition :name="selected">
+        <p class="class-name"><strong>Class name:</strong> {{ selected }}</p>
+        <transition :name="selected" mode="out-in">
           <Content v-if="show" />
         </transition>
       </div>
@@ -67,5 +68,24 @@ export default {
   max-width: 700px;
   margin: auto;
   padding: 20px;
+}
+#animations-list {
+  width: 200px;
+  display: inline-block;
+  margin-right: 30px;
+  padding: 30px 20px;
+}
+.animation-toggle-button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+  background-color: #44a1df;
+  cursor: pointer;
+}
+#preview {
+  margin-top: 50px;
+}
+.class-name {
+  margin: 20px 0px;
 }
 </style>

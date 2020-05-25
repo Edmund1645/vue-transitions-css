@@ -1,10 +1,11 @@
 /* shrink animation */
 .shrink-enter,
 .shrink-leave-to {
-  transform: scale(1.2);
+  transform: scale(1.12);
+  opacity: 0;
 }
 
 .shrink-enter-active,
 .shrink-leave-active {
-  transition: transform 0.3s;
+  transition: transform 0.5s, opacity 0.3s;
 }

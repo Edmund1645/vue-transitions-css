@@ -1,0 +1,12 @@
+/* fade horizontally */
+
+.fade-x-enter,
+.fade-x-leave-to {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.fade-x-enter-active,
+.fade-x-leave-to {
+  transition: opacity 0.3s, transform 0.5s;
+}

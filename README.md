@@ -1,6 +1,8 @@
 # vue-transitions-css
 A lightweight CSS library for for adding transitions to Vue components :star:
 
+[Demo](https://vue-transitions-css.netlify.app/) | [Contribution](#contribution)
+
 ## USAGE
 Installation via NPM:
 ```bash
