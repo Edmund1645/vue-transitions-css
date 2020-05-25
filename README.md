@@ -26,7 +26,7 @@ In any `.vue` file:
 ```
 
 
-### CONTRUBUTION
+### CONTRIBUTION
 After creating a fork and cloning locally:
 
 1. Install dependencies in the root(`/`) directory with: `npm install`
