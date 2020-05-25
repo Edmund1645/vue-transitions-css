@@ -1,1 +1,1 @@
-.fade{transform:translate(20px)}
+.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.shrink-enter,.shrink-leave-to{transform:scale(1.2)}.shrink-enter-active,.shrink-leave-active{transition:transform .3s}

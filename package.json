@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build",
     "watch": "gulp watch",
-    "develop": "cd demo && npm run serve"
+    "develop": "cd demo && npm run serve",
+    "deployment": "cd demo && npm run build"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,10 @@
+/* shrink animation */
+.shrink-enter,
+.shrink-leave-to {
+  transform: scale(1.2);
+}
+
+.shrink-enter-active,
+.shrink-leave-active {
+  transition: transform 0.3s;
+}
