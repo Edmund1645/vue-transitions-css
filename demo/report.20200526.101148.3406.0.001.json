@@ -1,0 +1,552 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200526.101148.3406.0.001.json",
+    "dumpEventTime": "2020-05-26T10:11:49Z",
+    "dumpEventTimeStamp": "1590484309184",
+    "processId": 3406,
+    "threadId": null,
+    "cwd": "/home/mixed_code/Desktop/vue-transitions-css/demo",
+    "commandLine": [
+      "node",
+      "/home/mixed_code/Desktop/vue-transitions-css/demo/node_modules/.bin/vue-cli-service",
+      "serve"
+    ],
+    "nodejsVersion": "v13.11.0",
+    "glibcVersionRuntime": "2.27",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "13.11.0",
+      "v8": "7.9.317.25-node.29",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "79",
+      "nghttp2": "1.40.0",
+      "napi": "6",
+      "llhttp": "2.0.4",
+      "openssl": "1.1.1d",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v13.11.0/node-v13.11.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v13.11.0/node-v13.11.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "4.15.0-99-generic",
+    "osVersion": "#100-Ubuntu SMP Wed Apr 22 20:32:56 UTC 2020",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz",
+        "speed": 948,
+        "user": 1347600,
+        "nice": 165400,
+        "sys": 179800,
+        "idle": 1807500,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz",
+        "speed": 1433,
+        "user": 1320700,
+        "nice": 108700,
+        "sys": 157900,
+        "idle": 1904000,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz",
+        "speed": 923,
+        "user": 1281000,
+        "nice": 361800,
+        "sys": 180000,
+        "idle": 1195400,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz",
+        "speed": 965,
+        "user": 1378700,
+        "nice": 147800,
+        "sys": 166700,
+        "idle": 2000300,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlo1",
+        "internal": false,
+        "mac": "8c:70:5a:1b:5f:d0",
+        "address": "192.168.1.100",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlo1",
+        "internal": false,
+        "mac": "8c:70:5a:1b:5f:d0",
+        "address": "fe80::1ee4:ae26:cff3:8843",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      }
+    ],
+    "host": "MixedCode"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b4ea05",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [node]"
+    },
+    {
+      "pc": "0x0000000000a10baf",
+      "symbol": "node::OnFatalError(char const*, char const*) [node]"
+    },
+    {
+      "pc": "0x0000000000b859ce",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]"
+    },
+    {
+      "pc": "0x0000000000b85d49",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]"
+    },
+    {
+      "pc": "0x0000000000d34255",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x0000000000d348e6",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [node]"
+    },
+    {
+      "pc": "0x0000000000d43159",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [node]"
+    },
+    {
+      "pc": "0x0000000000d43f95",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]"
+    },
+    {
+      "pc": "0x0000000000d46a6c",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]"
+    },
+    {
+      "pc": "0x0000000000d0d644",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [node]"
+    },
+    {
+      "pc": "0x000000000105a93e",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [node]"
+    },
+    {
+      "pc": "0x00000000013de0d9",
+      "symbol": " [node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2030325760,
+    "totalCommittedMemory": 2029120360,
+    "usedMemory": 2007347584,
+    "availableMemory": 47664440,
+    "memoryLimit": 2076180480,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33328,
+        "capacity": 33040,
+        "used": 33040,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 1270144,
+        "capacity": 1047424,
+        "used": 285392,
+        "available": 762032
+      },
+      "old_space": {
+        "memorySize": 1989029888,
+        "committedMemory": 1988998664,
+        "capacity": 1968791480,
+        "used": 1968791216,
+        "available": 264
+      },
+      "code_space": {
+        "memorySize": 1478656,
+        "committedMemory": 1360480,
+        "capacity": 1228160,
+        "used": 1228160,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2101248,
+        "committedMemory": 2101072,
+        "capacity": 1809040,
+        "used": 1809040,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 34734080,
+        "committedMemory": 34734080,
+        "capacity": 34656192,
+        "used": 34656192,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 544544,
+        "used": 544544,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047424,
+        "used": 0,
+        "available": 1047424
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 389.225,
+    "kernelCpuSeconds": 21.1655,
+    "cpuConsumptionPercent": 128.247,
+    "maxRss": 2270535680,
+    "pageFaults": {
+      "IORequired": 339,
+      "IONotRequired": 1231766
+    },
+    "fsActivity": {
+      "reads": 228376,
+      "writes": 0
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 174.247,
+    "kernelCpuSeconds": 7.6522,
+    "cpuConsumptionPercent": 56.8435,
+    "fsActivity": {
+      "reads": 106056,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "LESSOPEN": "| /usr/bin/lesspipe %s",
+    "npm_config_cache_lock_stale": "60000",
+    "npm_config_ham_it_up": "",
+    "npm_config_legacy_bundling": "",
+    "npm_config_sign_git_tag": "",
+    "USER": "mixed_code",
+    "npm_package_devDependencies__vue_cli_service": "^4.3.0",
+    "npm_config_user_agent": "npm/6.13.7 node/v13.11.0 linux x64",
+    "npm_config_always_auth": "",
+    "TEXTDOMAIN": "im-config",
+    "XDG_SEAT": "seat0",
+    "npm_package_dependencies_vue": "^2.6.11",
+    "npm_config_bin_links": "true",
+    "npm_config_key": "",
+    "SSH_AGENT_PID": "2659",
+    "XDG_SESSION_TYPE": "x11",
+    "npm_config_description": "true",
+    "npm_config_fetch_retries": "2",
+    "npm_config_heading": "npm",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_allow_same_version": "",
+    "npm_config_if_present": "",
+    "npm_config_user": "",
+    "npm_node_execpath": "/usr/local/bin/node",
+    "SHLVL": "1",
+    "npm_config_prefer_online": "",
+    "npm_config_noproxy": "",
+    "QT4_IM_MODULE": "xim",
+    "HOME": "/home/mixed_code",
+    "OLDPWD": "/home/mixed_code/Desktop/vue-transitions-css",
+    "npm_config_force": "",
+    "DESKTOP_SESSION": "ubuntu",
+    "npm_config_only": "",
+    "npm_config_read_only": "",
+    "npm_config_cache_min": "10",
+    "npm_config_init_license": "ISC",
+    "GNOME_SHELL_SESSION_MODE": "ubuntu",
+    "GTK_MODULES": "gail:atk-bridge",
+    "npm_config_editor": "vi",
+    "npm_config_rollback": "true",
+    "npm_config_tag_version_prefix": "v",
+    "npm_package_scripts_serve": "vue-cli-service serve",
+    "npm_config_cache_max": "Infinity",
+    "npm_config_userconfig": "/home/mixed_code/.npmrc",
+    "npm_config_timing": "",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "npm_config_tmp": "/tmp",
+    "npm_config_engine_strict": "",
+    "npm_config_init_author_name": "",
+    "npm_config_init_author_url": "",
+    "npm_config_preid": "",
+    "COLORTERM": "truecolor",
+    "npm_package_description": "## Project setup ``` npm install ```",
+    "npm_config_depth": "Infinity",
+    "npm_config_package_lock_only": "",
+    "npm_config_save_dev": "",
+    "npm_config_usage": "",
+    "npm_package_readmeFilename": "README.md",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_config_package_lock": "true",
+    "npm_config_progress": "true",
+    "npm_config_cafile": "",
+    "npm_config_otp": "",
+    "npm_config_https_proxy": "",
+    "npm_config_save_prod": "",
+    "MANDATORY_PATH": "/usr/share/gconf/ubuntu.mandatory.path",
+    "IM_CONFIG_PHASE": "2",
+    "npm_package_devDependencies_prettier": "^1.19.1",
+    "npm_config_audit": "true",
+    "npm_config_sso_type": "oauth",
+    "npm_config_cidr": "",
+    "npm_config_onload_script": "",
+    "LOGNAME": "mixed_code",
+    "GTK_IM_MODULE": "ibus",
+    "npm_package_devDependencies_vue_template_compiler": "^2.6.11",
+    "npm_config_rebuild_bundle": "true",
+    "npm_config_shell": "/bin/bash",
+    "npm_config_save_bundle": "",
+    "rvm_bin_path": "/home/mixed_code/.rvm/bin",
+    "_": "/usr/local/bin/npm",
+    "npm_package_private": "true",
+    "npm_config_format_package_lock": "true",
+    "npm_config_prefix": "/usr/local",
+    "npm_config_dry_run": "",
+    "RUBY_VERSION": "ruby-2.5.1",
+    "DEFAULTS_PATH": "/usr/share/gconf/ubuntu.default.path",
+    "IRBRC": "/home/mixed_code/.rvm/rubies/ruby-2.5.1/.irbrc",
+    "npm_package_scripts_lint": "vue-cli-service lint",
+    "npm_config_scope": "",
+    "npm_config_cache_lock_wait": "10000",
+    "npm_config_registry": "https://registry.npmjs.org/",
+    "npm_config_browser": "",
+    "npm_config_ignore_prepublish": "",
+    "npm_config_save_optional": "",
+    "npm_config_searchopts": "",
+    "npm_config_versions": "",
+    "USERNAME": "mixed_code",
+    "XDG_SESSION_ID": "3",
+    "TERM": "xterm-256color",
+    "npm_package_dependencies_core_js": "^3.6.4",
+    "npm_config_cache": "/home/mixed_code/.npm",
+    "npm_config_proxy": "",
+    "npm_config_send_metrics": "",
+    "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+    "npm_config_global_style": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_version": "",
+    "WINDOWPATH": "2",
+    "npm_package_dependencies_vue_transitions_css": "file:..",
+    "npm_config_viewer": "man",
+    "npm_config_node_gyp": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
+    "npm_config_local_address": "",
+    "PATH": "/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/mixed_code/Desktop/vue-transitions-css/demo/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/mixed_code/Desktop/vue-transitions-css/node_modules/.bin:/home/mixed_code/.rvm/gems/ruby-2.5.1/bin:/home/mixed_code/.rvm/gems/ruby-2.5.1@global/bin:/home/mixed_code/.rvm/rubies/ruby-2.5.1/bin:/home/mixed_code/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mixed_code/.rvm/bin:/home/mixed_code/.rvm/bin:/home/mixed_code/Android/Sdk:/usr/lib/jvm/java-8-openjdk-amd64:/home/mixed_code/Android/Sdk/tools:/home/mixed_code/Android/Sdk/tools/emulator",
+    "SESSION_MANAGER": "local/MixedCode:@/tmp/.ICE-unix/2500,unix/MixedCode:/tmp/.ICE-unix/2500",
+    "NODE": "/usr/local/bin/node",
+    "npm_package_name": "demo",
+    "npm_config_audit_level": "low",
+    "npm_config_prefer_offline": "",
+    "XDG_MENU_PREFIX": "gnome-",
+    "S_COLORS": "auto",
+    "GNOME_TERMINAL_SCREEN": "/org/gnome/Terminal/screen/cc4efca6_ab2e_428d_8c8c_849f138f92b7",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "npm_config_color": "true",
+    "npm_config_sign_git_commit": "",
+    "DISPLAY": ":0",
+    "MY_RUBY_HOME": "/home/mixed_code/.rvm/rubies/ruby-2.5.1",
+    "npm_config_fetch_retry_mintimeout": "10000",
+    "npm_config_maxsockets": "50",
+    "npm_config_sso_poll_frequency": "500",
+    "npm_config_offline": "",
+    "LANG": "en_NG",
+    "XDG_CURRENT_DESKTOP": "ubuntu:GNOME",
+    "npm_package_devDependencies_eslint": "^6.7.2",
+    "npm_config_umask": "0022",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "XDG_SESSION_DESKTOP": "ubuntu",
+    "XMODIFIERS": "@im=ibus",
+    "GNOME_TERMINAL_SERVICE": ":1.67",
+    "XAUTHORITY": "/run/user/1000/gdm/Xauthority",
+    "npm_config_fund": "true",
+    "npm_config_fetch_retry_maxtimeout": "60000",
+    "npm_config_loglevel": "notice",
+    "npm_config_logs_max": "10",
+    "npm_config_message": "%s",
+    "npm_lifecycle_script": "vue-cli-service serve",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "npm_package_devDependencies__vue_eslint_config_prettier": "^6.0.0",
+    "npm_config_ca": "",
+    "npm_config_cert": "",
+    "npm_config_global": "",
+    "npm_config_link": "",
+    "SHELL": "/bin/bash",
+    "npm_package_version": "0.1.0",
+    "npm_config_save": "true",
+    "npm_config_access": "",
+    "npm_config_also": "",
+    "npm_config_unicode": "",
+    "npm_lifecycle_event": "serve",
+    "QT_ACCESSIBILITY": "1",
+    "rvm_prefix": "/home/mixed_code",
+    "GDMSESSION": "ubuntu",
+    "npm_package_scripts_build": "vue-cli-service build",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"serve\"],\"original\":[\"run\",\"serve\"]}",
+    "npm_config_searchlimit": "20",
+    "npm_config_unsafe_perm": "true",
+    "npm_config_update_notifier": "true",
+    "npm_config_before": "",
+    "npm_config_long": "",
+    "npm_config_production": "",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "GEM_HOME": "/home/mixed_code/.rvm/gems/ruby-2.5.1",
+    "npm_config_auth_type": "legacy",
+    "npm_config_node_version": "13.11.0",
+    "npm_config_tag": "latest",
+    "npm_package_devDependencies__vue_cli_plugin_eslint": "^4.3.0",
+    "npm_config_git_tag_version": "true",
+    "npm_config_commit_hooks": "true",
+    "npm_config_shrinkwrap": "true",
+    "npm_config_script_shell": "",
+    "rvm_version": "1.29.9 (latest)",
+    "ANDROID_SDK_ROOT": "/home/mixed_code/Android/Sdk",
+    "TEXTDOMAINDIR": "/usr/share/locale/",
+    "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+    "npm_config_fetch_retry_factor": "10",
+    "npm_config_strict_ssl": "true",
+    "npm_config_save_exact": "",
+    "XDG_VTNR": "2",
+    "QT_IM_MODULE": "xim",
+    "npm_package_devDependencies_eslint_plugin_prettier": "^3.1.1",
+    "npm_config_globalconfig": "/usr/local/etc/npmrc",
+    "npm_config_init_module": "/home/mixed_code/.npm-init.js",
+    "npm_config_dev": "",
+    "npm_config_parseable": "",
+    "JAVA_HOME": "/usr/lib/jvm/java-8-openjdk-amd64",
+    "PWD": "/home/mixed_code/Desktop/vue-transitions-css/demo",
+    "GEM_PATH": "/home/mixed_code/.rvm/gems/ruby-2.5.1:/home/mixed_code/.rvm/gems/ruby-2.5.1@global",
+    "npm_package_devDependencies__vue_cli_plugin_babel": "^4.3.0",
+    "npm_config_globalignorefile": "/usr/local/etc/npmignore",
+    "npm_execpath": "/usr/local/lib/node_modules/npm/bin/npm-cli.js",
+    "CLUTTER_IM_MODULE": "xim",
+    "ANDROID_HOME": "/home/mixed_code/Android/Sdk",
+    "XDG_DATA_DIRS": "/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-ubuntu:/etc/xdg",
+    "npm_config_cache_lock_retries": "10",
+    "npm_config_searchstaleness": "900",
+    "npm_package_devDependencies_eslint_plugin_vue": "^6.2.2",
+    "npm_config_save_prefix": "^",
+    "npm_config_scripts_prepend_node_path": "warn-only",
+    "npm_config_node_options": "",
+    "npm_package_devDependencies_babel_eslint": "^10.1.0",
+    "npm_config_group": "1000",
+    "npm_config_init_author_email": "",
+    "npm_config_searchexclude": "",
+    "rvm_path": "/home/mixed_code/.rvm",
+    "VTE_VERSION": "5202",
+    "npm_config_git": "git",
+    "npm_config_optional": "true",
+    "INIT_CWD": "/home/mixed_code/Desktop/vue-transitions-css/demo",
+    "npm_config_json": "",
+    "NODE_ENV": "development",
+    "BABEL_ENV": "development",
+    "VUE_CLI_TRANSPILE_BABEL_RUNTIME": "true",
+    "WEBPACK_DEV_SERVER": "true",
+    "VUE_CLI_ENTRY_FILES": "[\"/home/mixed_code/Desktop/vue-transitions-css/demo/src/main.js\"]"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 16777216,
+      "hard": 16777216
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 4096,
+      "hard": 4096
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 15211,
+      "hard": 15211
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}
