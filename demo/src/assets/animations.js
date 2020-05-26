@@ -15,4 +15,28 @@ export default [
     name: 'Shrink',
     class: 'shrink',
   },
+  {
+    name: 'Scale in',
+    class: 'scale-in'
+  },
+  {
+    name: 'Rotate',
+    class: 'rotate'
+  },
+  {
+    name:'Swirl',
+    class:'swirl'
+  },
+  {
+    name:'Roll In Left',
+    class:'roll-in-left'
+  },
+  {
+    name: 'Tilt In',
+    class: 'tilt-in'
+  },
+  {
+    name: 'Flip in',
+    class: 'flip-in'
+  }
 ];

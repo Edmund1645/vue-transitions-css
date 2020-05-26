@@ -1,0 +1,12 @@
+
+/* scalle in animation */
+.rotate-enter,
+.rotate-leave-to{
+    transform: rotate(-360deg);
+    opacity: 0;
+}
+
+.rotate-enter-active,
+.rotate-leave-active{
+    transition:  transform 0.3s, opacity 0.5s ;
+}

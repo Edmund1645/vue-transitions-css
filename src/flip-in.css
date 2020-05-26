@@ -1,0 +1,11 @@
+  .flip-in-enter,
+  .flip-in-leave-to{
+    transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  
+  .flip-in-enter-active,
+  .flip-in-leave-active{
+      transition:  transform 0.5s, opacity 1s ;
+  }  
+  
