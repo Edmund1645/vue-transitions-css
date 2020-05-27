@@ -1,6 +1,6 @@
 <!-- latest changes are to be added to the top of the file, not the bottom -->
-### v0.0.2 #4
-  - Add new animations:
+### v0.0.2 
+  - Add new animations ([#4](https://github.com/Edmund1645/vue-transitions-css/pull/4)):
     - rotate
     - swirl
     - flip-x
