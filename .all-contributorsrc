@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "bemijonathan",
+      "name": "jonathan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/34762800?v=4",
+      "profile": "https://github.com/bemijonathan",
+      "contributions": [
+        "code",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "vue-transitions-css",
+  "projectOwner": "Edmund1645",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
