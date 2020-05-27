@@ -1,0 +1,12 @@
+
+/* tilt in animation */
+.tilt-in-enter,
+.tilt-in-leave-to{
+    transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+    opacity: 0;
+}
+
+.tilt-in-enter-active,
+.tilt-in-leave-active{
+    transition: ease-out  transform 0.4s, opacity 0.3s ;
+}

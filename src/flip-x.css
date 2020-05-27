@@ -1,0 +1,11 @@
+  .flip-x-enter,
+  .flip-x-leave-to{
+    transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  
+  .flip-x-enter-active,
+  .flip-x-leave-active{
+      transition:  transform 0.5s, opacity 0.3s;
+  }  
+  

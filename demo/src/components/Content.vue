@@ -1,12 +1,6 @@
 <template>
-  <div>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste harum
-    animi quidem rem rerum laboriosam corporis dolore sit aut consequatur,
-    deleniti numquam placeat eveniet laborum totam sunt sapiente modi enim quo.
-    Minima, nesciunt natus amet perspiciatis incidunt ipsum veritatis qui ipsa
-    sunt velit vel, dolores eos, necessitatibus laborum quia? Nisi, totam libero
-    consequatur autem nobis ipsa provident neque cupiditate animi dolorem dolore
-    perspiciatis ipsum nesciunt qui voluptas nam? Saepe?
+  <div class="dummy">
+    Lorem
   </div>
 </template>
 
@@ -16,4 +10,17 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+  .dummy{
+    width: 300px;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#44a1df;
+    font-size:40px;
+    height:300px;
+    color:white;
+    border-radius:10px;
+  }
+</style>

@@ -1,0 +1,11 @@
+
+  .swirl-enter,
+  .swirl-leave-to{
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  
+  .swirl-enter-active,
+  .swirl-leave-active{
+      transition:  transform 0.5s, opacity 1s ;
+  }  

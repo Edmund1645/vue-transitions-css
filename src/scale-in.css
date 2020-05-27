@@ -1,0 +1,12 @@
+
+/* scalle in animation */
+.scale-in-enter,
+.scale-in-leave-to{
+   transform: scale(0.88);
+   opacity: 0;
+}
+
+.scale-in-enter-active,
+.scale-in-leave-active{
+    transition:  transform 0.3s, opacity 0.5s ;
+}
