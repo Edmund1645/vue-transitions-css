@@ -8,5 +8,5 @@
 
 .tilt-in-enter-active,
 .tilt-in-leave-active{
-    transition:  transform 0.3s, opacity 0.5s ;
+    transition: ease-out  transform 0.4s, opacity 0.3s ;
 }

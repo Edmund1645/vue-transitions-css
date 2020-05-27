@@ -36,7 +36,7 @@ export default [
     class: 'tilt-in'
   },
   {
-    name: 'Flip in',
-    class: 'flip-in'
+    name: 'Flip X',
+    class: 'flip-x'
   }
 ];

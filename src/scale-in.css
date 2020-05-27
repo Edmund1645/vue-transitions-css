@@ -2,7 +2,7 @@
 /* scalle in animation */
 .scale-in-enter,
 .scale-in-leave-to{
-   transform: scale(0);
+   transform: scale(0.88);
    opacity: 0;
 }
 

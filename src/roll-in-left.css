@@ -1,7 +1,7 @@
 /* roll in animation */
 .roll-in-left-enter,
 .roll-in-left-leave-to{
-    transform: translateX(-800px) rotate(-540deg);
+    transform: translateX(-500px) rotate(-200deg);
     opacity: 0;
 }
 
