@@ -1,6 +1,6 @@
 {
   "name": "vue-transitions-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A lightweight CSS library for adding transitions to Vue components",
   "main": "dist/index.min.css",
   "scripts": {
