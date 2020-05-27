@@ -42,7 +42,7 @@ export default {
     };
   },
   mounted() {
-    this.animations = animations;
+    this.animations = animations.sort((a, b) => (a.name > b.name ? 1 : -1));
   },
   methods: {
     animate() {
@@ -73,13 +73,17 @@ export default {
   width: 200px;
   display: inline-block;
   margin-right: 30px;
-  padding: 30px 20px;
+  appearance: none;
+  padding: 10px 20px;
+  background: #ffffff;
 }
 .animation-toggle-button {
-  padding: 5px 10px;
+  padding: 10px 20px;
   border-radius: 4px;
   color: white;
   background-color: #44a1df;
+  border: 1px solid #44a1df;
+  font-weight: 700;
   cursor: pointer;
 }
 #preview {
