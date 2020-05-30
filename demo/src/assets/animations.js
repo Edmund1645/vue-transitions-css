@@ -1,5 +1,4 @@
-export default [
-  {
+export default [{
     name: 'Fade',
     class: 'fade',
   },
@@ -24,12 +23,12 @@ export default [
     class: 'rotate'
   },
   {
-    name:'Swirl',
-    class:'swirl'
+    name: 'Swirl',
+    class: 'swirl'
   },
   {
-    name:'Roll In Left',
-    class:'roll-in-left'
+    name: 'Roll In Left',
+    class: 'roll-in-left'
   },
   {
     name: 'Tilt In',
@@ -38,5 +37,9 @@ export default [
   {
     name: 'Flip X',
     class: 'flip-x'
+  },
+  {
+    name: 'RotateOut',
+    class: 'rotateOut'
   }
 ];
