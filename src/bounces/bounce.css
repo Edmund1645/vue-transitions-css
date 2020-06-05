@@ -28,17 +28,6 @@
   }
 }
 
-/*.bounce-enter-active {
-  animation-name: bounce;
-  transform-origin: center bottom;
-} */
-
-/* .bounceOut-leave-to {
-  animation-duration: calc(var(--animate-duration) * 0.75);
-  animation-name: bounceOut;
-} */
-
-
 .bounce-enter,
 .bounce-leave-to {
   animation-duration: 1s;
