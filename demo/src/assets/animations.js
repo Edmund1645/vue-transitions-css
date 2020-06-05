@@ -42,5 +42,21 @@ export default [
   {
     name: 'Bounce',
     class: 'bounce'
+  },
+  {
+    name: 'Bounce out down',
+    class: 'bounceOutDown'
+  },
+  {
+    name: 'Bounce out left',
+    class: 'bounceOutLeft'
+  },
+  {
+    name: 'Bounce out Right',
+    class: 'bounceOutRight'
+  },
+  {
+    name: 'Bounce out Up',
+    class: 'bounceOutUp'
   }
 ];

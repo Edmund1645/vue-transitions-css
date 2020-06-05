@@ -15,6 +15,14 @@
   }
 }
 
-.bounceOutDown {
+.bounceOutDown-enter,
+.bounceOutDown-leave-to {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.bounceOutDown-enter-active,
+.bounceOutDown-leave-active{
   animation-name: bounceOutDown;
+
 }
