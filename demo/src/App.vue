@@ -16,9 +16,9 @@
       </div>
       <div id="preview">
         <p class="class-name"><strong>Class name:</strong> {{ selected }}</p>
-        <transition :name="selected" mode="out-in">
-          <Content v-if="show" />
-        </transition>
+          <transition :name="selected" mode="out-in">
+              <Content v-if="show" />
+          </transition>
       </div>
     </div>
   </div>

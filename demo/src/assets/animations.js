@@ -38,5 +38,21 @@ export default [
   {
     name: 'Flip X',
     class: 'flip-x'
+  },
+  {
+    name: 'Bounce out down',
+    class: 'bounceOutDown'
+  },
+  {
+    name: 'Bounce out left',
+    class: 'bounceOutLeft'
+  },
+  {
+    name: 'Bounce out Right',
+    class: 'bounceOutRight'
+  },
+  {
+    name: 'Bounce out Up',
+    class: 'bounceOutUp'
   }
 ];
