@@ -3,18 +3,7 @@
     <Nav />
     <div id="body">
       <div id="selector">
-        <select name="animations" id="animations-list" v-model="selectedEntrance">
-          <option value="none" disabled selected>select entrance animation</option>
-          <option
-            v-for="(animation, index) in animations"
-            :key="index"
-            :value="animation.class"
-          >
-            {{ animation.name }}
-          </option>
-        </select>
-        <select name="animations" id="animations-list" v-model="selectedExit">
-          <option value="none" disabled selected>select exit animation</option>
+        <select name="animations" id="animations-list" v-model="selected">
           <option
             v-for="(animation, index) in animations"
             :key="index"
@@ -27,18 +16,9 @@
       </div>
       <div id="preview">
         <p class="class-name"><strong>Class name:</strong> {{ selected }}</p>
-        <div v-if="selectedEntrance">
-          <transition :name="selectedEntrance" mode="out-in">
+          <transition :name="selected" mode="out-in">
               <Content v-if="show" />
           </transition>
-        </div>
-
-        <div v-else>
-          <transition v-if="selectedExit" :name="selectedExit" mode="out-in">
-                <Content v-if="show" />
-          </transition>
-        </div>
-
       </div>
     </div>
   </div>
@@ -56,8 +36,7 @@ export default {
   },
   data() {
     return {
-      selectedEntrance: 'none',
-      selectedExit: 'none',
+      selected: 'fade',
       show: true,
       animations: [],
     };

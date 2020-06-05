@@ -53,16 +53,10 @@
   }
 }
 
-
-
-
-.bounceOutUp-leave-to {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-
-}
-
 .bounceOutUp-leave-active{
-    animation: bounceOutUp 1s;
+    animation: bounceOutUp 0.5s;
 }
 
+.bounceOutUp-enter-active{
+  animation: bounceOutUp 0.5s reverse;
+}

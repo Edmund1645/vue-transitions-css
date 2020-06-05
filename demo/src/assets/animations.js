@@ -40,10 +40,6 @@ export default [
     class: 'flip-x'
   },
   {
-    name: 'Bounce',
-    class: 'bounce'
-  },
-  {
     name: 'Bounce out down',
     class: 'bounceOutDown'
   },
