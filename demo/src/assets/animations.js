@@ -38,5 +38,9 @@ export default [
   {
     name: 'Flip X',
     class: 'flip-x'
+  },
+  {
+    name: 'Bounce',
+    class: 'bounce'
   }
 ];
