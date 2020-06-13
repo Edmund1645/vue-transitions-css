@@ -27,6 +27,12 @@ In any `.vue` file:
     <Content v-if="show" />
   </transition>
 ```
+Be sure to set the [mode](https://vuejs.org/v2/guide/transitions.html#Transition-Modes) of the transition so it doesn't appear janky:
+```html
+  <transition name="fade" mode="out-in">
+    <Content v-if="show" />
+  </transition>
+```
 
 ## Contributors ✨
 
