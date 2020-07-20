@@ -34,6 +34,23 @@ Be sure to set the [mode](https://vuejs.org/v2/guide/transitions.html#Transition
   </transition>
 ```
 
+### purgeCSS fix
+In some cases, the animations would work during development, but not when you build and deploy to production. This issue is most likely with purgeCSS or any other optimization tool. especially if you use Nuxt.js and TailwindCSS module.
+
+**To fix the issue:**
+In your purgeCSS config, you have to whitelist every animation class you use in your app. If you use the `fade-x` animation for example, add a regexe pattern for purgeCSS to ignore any css class that will include `fade-x` in it's name.
+
+in `nuxt.config.js`: 
+
+```js
+export default {
+   purgeCSS: {
+    whitelistPatterns: [/fade-x/]
+  }
+}
+
+```
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
