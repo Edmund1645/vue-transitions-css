@@ -14,6 +14,16 @@
         "code",
         "maintenance"
       ]
+    },
+    {
+      "login": "simeon4real",
+      "name": "Simeon Udoh",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25581792?v=4",
+      "profile": "https://simicode.me",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,

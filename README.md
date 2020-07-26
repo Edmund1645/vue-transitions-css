@@ -1,6 +1,6 @@
 # vue-transitions-css
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 A lightweight CSS library for for adding transitions to Vue components :star:
 
@@ -61,6 +61,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/bemijonathan"><img src="https://avatars3.githubusercontent.com/u/34762800?v=4" width="100px;" alt=""/><br /><sub><b>jonathan</b></sub></a><br /><a href="https://github.com/Edmund1645/vue-transitions-css/commits?author=bemijonathan" title="Code">💻</a> <a href="#maintenance-bemijonathan" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://simicode.me"><img src="https://avatars1.githubusercontent.com/u/25581792?v=4" width="100px;" alt=""/><br /><sub><b>Simeon Udoh</b></sub></a><br /><a href="https://github.com/Edmund1645/vue-transitions-css/commits?author=simeon4real" title="Code">💻</a> <a href="#design-simeon4real" title="Design">🎨</a></td>
   </tr>
 </table>
 
