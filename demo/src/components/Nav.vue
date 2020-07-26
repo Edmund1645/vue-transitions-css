@@ -1,28 +1,9 @@
 <template>
   <div id="navbar">
     <nav>
-      <h1 class="title">Vue Transitions CSS</h1>
+      <h1 class="title">Vue Transitions with CSS</h1>
 
-      <ul class="links">
-        <li>
-          <a
-            href="https://twitter.com/26th_edmund"
-            target="_blank"
-            rel="noopener"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/edmund1645"
-            target="_blank"
-            rel="noopener"
-          >
-            GitHub
-          </a>
-        </li>
-      </ul>
+     
     </nav>
   </div>
 </template>
@@ -34,14 +15,18 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-size: 2.5rem;
+}
 #navbar nav {
   height: 60px;
-  background-color: #44a1df;
+  background-color: var(--color-primary);
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 3rem;
+  margin-bottom: 1.5rem;
 }
 .title {
   display: inline-block;
@@ -57,5 +42,16 @@ export default {
 }
 .links li a {
   color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar nav {
+    height: unset; 
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
 }
 </style>
