@@ -1,0 +1,10 @@
+.zoom-enter, .zoom-leave-to{
+	transform: scale(2);  
+	opacity:0;
+  top: 100px;
+  
+}
+.zoom-enter-active,
+.zoom-leave-to{
+  transition: all 0.5s;
+}
